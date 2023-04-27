@@ -21,5 +21,11 @@ with open("mylife.txt", "w") as f:
         while True:
             choice = input("Are there more lines y/n? ")
 # if y
+            if choice.lower() == "y":
+                break
+            elif choice.lower() != "y" and choice.lower() != "n":
+                print("Answer must be y or n only.")
+            else:
+                break
 # if n
 # START
