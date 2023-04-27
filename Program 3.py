@@ -12,7 +12,11 @@ print("\033[92m" + pyfiglet.figlet_format(greet, font = "Thin"))
 
 # Pseudocode
 # open mylife.txt (write)
+with open("mylife.txt", "w") as f:
 # input
+    while True:
+        word = input("Enter line: ")
+        f.write(word + "\n")
 # yes (y), or no (n)
 # if y
 # if n
