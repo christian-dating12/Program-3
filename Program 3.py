@@ -28,4 +28,6 @@ with open("mylife.txt", "w") as f:
             else:
                 break
 # if n
+        if choice.lower() == "n":
+            break
 # START
