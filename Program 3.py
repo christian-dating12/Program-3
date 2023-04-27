@@ -18,6 +18,8 @@ with open("mylife.txt", "w") as f:
         word = input("Enter line: ")
         f.write(word + "\n")
 # yes (y), or no (n)
+        while True:
+            choice = input("Are there more lines y/n? ")
 # if y
 # if n
 # START
