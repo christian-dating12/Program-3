@@ -9,3 +9,11 @@ print("\033[90m=" * 80)
 import pyfiglet
 greet = "GOOD DAY!"
 print("\033[92m" + pyfiglet.figlet_format(greet, font = "Thin"))
+
+# Pseudocode
+# open mylife.txt (write)
+# input
+# yes (y), or no (n)
+# if y
+# if n
+# START
